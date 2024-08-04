@@ -35,7 +35,7 @@ class Clock:
         hours = current_time.tm_hour % 12
         minutes = current_time.tm_min
         seconds = current_time.tm_sec
-
+        print(hours)
         second_angle = 6 * seconds
         minute_angle = 6 * minutes + seconds / 10
         hour_angle = 30 * hours + minutes / 2
